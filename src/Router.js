@@ -8,9 +8,9 @@ function Router() {
   return (
     <Routes>
       <Route exact path="/" component={Home} />
-      <Route path="/signin" component={Signin} />
-      <Route path="/how-it-work" component={Howitwork} />
-      <Route path="/about-us" component={AboutUs} />
+      <Route exact path="/signin" component={Signin} />
+      <Route exact path="/how-it-work" component={Howitwork} />
+      <Route exact path="/about-us" component={AboutUs} />
     </Routes>
   );
 }
